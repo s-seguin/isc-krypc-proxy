@@ -1,0 +1,19 @@
+{
+  "name": "isc-krypc-proxy",
+  "version": "0.0.0",
+  "private": true,
+  "entry": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "esm": "^3.2.25",
+    "express": "~4.16.1",
+    "lodash": "^4.17.15",
+    "morgan": "~1.9.1"
+  }
+}
